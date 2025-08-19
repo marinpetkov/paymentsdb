@@ -1,0 +1,44 @@
+/* Bank Statistics – Admin UI */
+.bank-statistics-wrap .bank-statistics-card{
+  background:#fff;border:1px solid #dcdcde;border-radius:8px;
+  padding:16px;margin-top:16px;box-shadow:0 1px 1px rgba(0,0,0,.04)
+}
+.bank-statistics-toolbar{
+  display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:12px 0 8px
+}
+.bank-statistics-controls{display:flex;gap:12px;align-items:center}
+.bs-toggle{display:flex;gap:8px;align-items:center}
+#bs-search{min-width:240px}
+.bank-statistics-summary{display:flex;gap:8px;align-items:center;margin-bottom:6px}
+.bs-chip{
+  background:#f6f7f7;border:1px solid #dcdcde;border-radius:999px;padding:4px 10px;font-weight:600
+}
+.bs-chip.ok{background:#e7f7ef;border-color:#c2ead5}
+.bs-chip.warn{background:#fff2f0;border-color:#f1c0bc}
+.bs-chip.cached{background:#eef4ff;border-color:#cfe0ff}
+.bs-chip.fresh{background:#fff6e5;border-color:#ffe1a6}
+
+.bs-errors ul{margin-left:18px}
+
+.bs-table{table-layout:fixed}
+.bs-table thead th{position:sticky;top:32px;background:#fff;z-index:1}
+.bs-table .col-base{width:22%}
+.bs-table .col-tag{width:32%}
+.bs-table .col-value{width:14%}
+.bs-table .col-cache{width:10%}
+.bs-table .col-time{width:10%}
+.bs-table .col-error{width:12%}
+
+.bs-badge{
+  display:inline-block;border-radius:999px;padding:2px 8px;font-size:12px;font-weight:600;
+  border:1px solid #dcdcde;background:#f6f7f7
+}
+.bs-badge.cached{background:#eef4ff;border-color:#cfe0ff}
+.bs-badge.fresh{background:#fff6e5;border-color:#ffe1a6}
+.bs-badge.ok{background:#e7f7ef;border-color:#c2ead5}
+.bs-badge.error{background:#fff2f0;border-color:#f1c0bc;color:#b32d2e}
+
+.bs-sql{margin-top:6px}
+.bs-code{
+  display:block;white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace
+}
